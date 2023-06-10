@@ -12,3 +12,12 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
+
+### Start Zookeeper
+    bin/zookeeper-server-start.sh config/zookeeper.properties
+### Start kafka
+    bin/kafka-server-start.sh config/server.properties
+### Start Mongodb
+    brew start service mongodb/brew/mongodb-community
+### Run a gradle base springboot project
+     gradle bootRun   

@@ -16,6 +16,10 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.kafka:spring-kafka")
+	implementation("org.projectlombok:lombok:1.18.26")
+	implementation("org.mongodb:mongodb-driver-sync:4.9.0")
+	implementation("org.springframework:spring-webflux:6.0.6")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
