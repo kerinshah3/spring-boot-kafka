@@ -17,6 +17,8 @@ These additional references should also help you:
     bin/zookeeper-server-start.sh config/zookeeper.properties
 ### Start kafka
     bin/kafka-server-start.sh config/server.properties
+### Consumer messages ( Follow spring-kafka-consumer branch for spring-boot kafka consumer)
+    bin/kafka-console-consumer.sh --topic demo-kafka-topic --from-beginning --bootstrap-server localhost:9092
 ### Start Mongodb
     brew start service mongodb/brew/mongodb-community
 ### Run a gradle base springboot project

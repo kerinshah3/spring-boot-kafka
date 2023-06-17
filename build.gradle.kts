@@ -20,6 +20,8 @@ dependencies {
 	implementation("org.projectlombok:lombok:1.18.26")
 	implementation("org.mongodb:mongodb-driver-sync:4.9.0")
 	implementation("org.springframework:spring-webflux:6.0.6")
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb:3.0.7")
+	implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive:3.0.4")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
