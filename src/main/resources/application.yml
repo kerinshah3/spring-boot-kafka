@@ -1,0 +1,8 @@
+spring:
+  profile: default
+
+
+---
+
+spring:
+  profile: dev2
